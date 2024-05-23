@@ -1,9 +1,12 @@
 .hero {
     margin-top: 50px;
+    justify-content: center;
+    align-items: center;
 }
 .hero-container {
     background-color:  rgb(98, 46, 141);
     display: flex;
+    position: relative;
 }
 p{
     color: rgb(206, 206, 206);
@@ -12,14 +15,10 @@ p{
     width: 150px;
     transform: scale(0.9);
     border-radius: 50%;
+    box-shadow: 1px 1px 5px 3px rgb(20, 20, 22);
 }
 .hero-description {
     padding: 20px;
     font-size: larger;
-}
-.ghost-emoji {
-    position: absolute;
-    font-size: 2rem;
-    animation: revolve 5s linear infinite;
 }
 

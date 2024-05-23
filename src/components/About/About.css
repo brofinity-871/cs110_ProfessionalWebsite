@@ -17,6 +17,7 @@
     border: 1px solid rgb(17, 17, 17);
     background-color: rgb(43, 43, 46);
     transition: transform 0.5s;
+    border-radius: 10px;
 }
 .about-background:hover {
     transform: scale(1.2);
@@ -33,6 +34,7 @@
     border: 1px solid rgb(17, 17, 17);
     background-color: rgb(43, 43, 46);
     transition: transform 0.5s;
+    border-radius: 10px;
 }
 .about-goals:hover {
     transform: scale(1.2);

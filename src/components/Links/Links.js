@@ -6,8 +6,9 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const Links = () => {
     return (
         <div>
+            <h4>Copyright &copy; 2024. All rights are reserved</h4>
             <div className="links">
-                <a href="https://github.com/brofinity-871" target="_blank" rel="noopener noreferrer" style={{ marginRight: '10px', fontSize: '50px', color: '#000' }}>
+                <a href="https://github.com/brofinity-871" target="_blank" rel="noopener noreferrer" style={{ marginRight: '20px', fontSize: '50px', color: '#000' }}>
                     <FontAwesomeIcon icon={faGithub} />
                 </a>
                 <a href="https://linkedin.com/in/joseph-flores-98446b264" target="_blank" rel="noopener noreferrer" style={{ fontSize: '50px', color: '#0077b5' }}>

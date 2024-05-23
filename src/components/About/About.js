@@ -8,26 +8,24 @@ const About = () => {
                 <div className="about-background">
                     <h4>Interest</h4>
                     <p>I am passionate about learning the fundamentals of computer communication and organization. 
-                        Perspectives such as top-down or bottom-up makes computer engineering feasible and endless.
+                        From top-down, computer architecture and operating system maps the course. From bottom-up, compilers and assembly build the essentials.
                     </p>
                 </div>
                 <div className="about-goals">
                     <h4>Goals</h4>
                     <p>I am working to become a computer architect in the long-run. 
-                        For the meantime, networking and intermediate code for compilers are my next studies as I gain experience.
+                        For the meantime, networking and intermediate code for compilers are my next focus as I gain experience.
                     </p>
                 </div>
             </div>
-            <p>This is link to 
-                <a 
+            <a 
                 href="https://docs.google.com/document/d/13DIxTjHMWM0JLvQ_izQjVozBIYi0Wtgiav2FgQWC6Lg/edit?usp=sharing" 
                 className="resume-link"
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-                    resume.pdf
-                </a>
-            </p>
+                Link to resume
+            </a>
         </div>
     );
 };

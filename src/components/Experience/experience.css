@@ -10,8 +10,12 @@
     position: relative;
 }
 .cos-img {
-    width: 150px;
+    min-width: 100px;
+    max-width: 200px;
+    width: auto;
     height: auto;
+    min-height: 100px;
+    max-height: 200px;
     transform: scale(0.9);
     border-radius: 10%;
 }
@@ -32,8 +36,12 @@
     position: relative;
 }
 .ucr-img {
-    width: 150px;
+    min-width: 100px;
+    max-width: 200px;
+    width: auto;
     height: auto;
+    min-height: 100px;
+    max-height: 200px;
     transform: scale(0.9);
     border-radius: 10%;
 }
@@ -45,6 +53,59 @@
 .ucr-info:hover + .ucr-chant {
     display: block;
 }
+.school-name {
+    font-weight: bolder;
+    font-size: 20px;
+}
 ul {
     color: rgb(122, 131, 255);
+}
+.skill-pair {
+    display: flex;
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    gap: 40px;
+}
+.skill-sw {
+    margin: 10px;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid rgb(17, 17, 17);
+    background-color: rgb(43, 43, 46);
+    min-width: 100px;
+    max-width: 500px;
+    width: auto;
+    min-height: 100px;
+    max-height: 400px;
+    height: auto;
+    transition: transform 1s;
+}
+.skill-sw:hover {
+    transform: scale(1.2);
+    border-radius: 10%;
+}
+.hdr-skill {
+    color: rgb(122, 131, 255);
+    font-size: large;
+    font-weight: bold;
+}
+.skill-hw {
+    margin: 10px;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid rgb(17, 17, 17);
+    background-color: rgb(43, 43, 46);
+    min-width: 100px;
+    max-width: 500px;
+    width: auto;
+    min-height: 100px;
+    max-height: 400px;
+    height: auto;
+    transition: transform 1s;
+}
+.skill-hw:hover {
+    transform: scale(1.2);
+    border-radius: 10%;
 }

@@ -17,4 +17,9 @@ p{
     padding: 20px;
     font-size: larger;
 }
+.ghost-emoji {
+    position: absolute;
+    font-size: 2rem;
+    animation: revolve 5s linear infinite;
+}
 

@@ -8,11 +8,11 @@
 }
 .about-background {
     width: auto;
-    min-width: 400px;
+    min-width: 100px;
     max-width: 500px;
     height: auto;
     min-height: 100px;
-    max-height: 200px;
+    max-height: 400px;
     margin: 10px;
     border: 1px solid rgb(17, 17, 17);
     background-color: rgb(43, 43, 46);
@@ -21,13 +21,14 @@
 .about-background:hover {
     transform: scale(1.2);
 }
+
 .about-goals {
     width: auto;
-    min-width: 400px;
+    min-width: 100px;
     max-width: 500px;
     height: auto;
     min-height: 100px;
-    max-height: 200px;
+    max-height: 400px;
     margin: 10px;
     border: 1px solid rgb(17, 17, 17);
     background-color: rgb(43, 43, 46);

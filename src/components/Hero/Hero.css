@@ -1,0 +1,20 @@
+.hero {
+    margin-top: 50px;
+}
+.hero-container {
+    background-color:  rgb(98, 46, 141);
+    display: flex;
+}
+p{
+    color: rgb(206, 206, 206);
+}
+.hero-image {
+    width: 150px;
+    transform: scale(0.9);
+    border-radius: 50%;
+}
+.hero-description {
+    padding: 20px;
+    font-size: larger;
+}
+

@@ -1,0 +1,38 @@
+.about {
+    padding: 10px 0 10px 0;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(98, 46, 141);
+    gap: 25px;
+}
+.about-background {
+    width: auto;
+    min-width: 400px;
+    max-width: 500px;
+    height: auto;
+    min-height: 100px;
+    max-height: 200px;
+    margin: 10px;
+    border: 1px solid rgb(17, 17, 17);
+    background-color: rgb(43, 43, 46);
+    transition: transform 0.5s;
+}
+.about-background:hover {
+    transform: scale(1.2);
+}
+.about-goals {
+    width: auto;
+    min-width: 400px;
+    max-width: 500px;
+    height: auto;
+    min-height: 100px;
+    max-height: 200px;
+    margin: 10px;
+    border: 1px solid rgb(17, 17, 17);
+    background-color: rgb(43, 43, 46);
+    transition: transform 0.5s;
+}
+.about-goals:hover {
+    transform: scale(1.2);
+}

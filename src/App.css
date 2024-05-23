@@ -1,18 +1,35 @@
 .App {
   text-align: center;
+  background-color: rgb(98, 46, 141);
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  animation: App-logo-spin-scale infinite 10s linear;
+}
+h4 {
+  color: rgb(122, 131, 255);
+  font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes App-logo-spin-scale {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(90deg) scale(1.5);
+  }
+  50% {
+    transform: rotate(180deg) scale(2);
+  }
+  75% {
+    transform: rotate(270deg) scale(1.5);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
   }
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -25,7 +42,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #81f0ff;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +52,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h2 {
+  margin: 20px;
+  color: rgb(204, 204, 204);
+}
+.divider {
+  border: none;
+  height: 5px;
+  background-color: rgb(20, 20, 22);
+}
+
+.resume-link {
+  color:rgb(122, 131, 255);
+  text-decoration: underline;
+}
+.resume-link:hover {
+  color: rgb(204, 204, 204);
+}
+.resume-link:visited {
+  color:rgb(3, 6, 36);
+}
+.resume-link:active {
+  color: green;
 }

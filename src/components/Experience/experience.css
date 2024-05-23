@@ -1,0 +1,50 @@
+.experience {
+    background-color: rgb(98, 46, 141);
+}
+.cos {
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+    border: 1px solid rgb(17, 17, 17);
+    background-color: rgb(43, 43, 46);
+    position: relative;
+}
+.cos-img {
+    width: 150px;
+    height: auto;
+    transform: scale(0.9);
+    border-radius: 10%;
+}
+.cos-chant {
+    display: none;
+    font-weight:bolder;
+    font-size: large;
+}
+.cos-info:hover + .cos-chant {
+    display: block;
+}
+.ucr {
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+    border: 1px solid rgb(17, 17, 17);
+    background-color: rgb(43, 43, 46);
+    position: relative;
+}
+.ucr-img {
+    width: 150px;
+    height: auto;
+    transform: scale(0.9);
+    border-radius: 10%;
+}
+.ucr-chant {
+    display: none;
+    font-weight:bolder;
+    font-size: large;
+}
+.ucr-info:hover + .ucr-chant {
+    display: block;
+}
+ul {
+    color: rgb(122, 131, 255);
+}
